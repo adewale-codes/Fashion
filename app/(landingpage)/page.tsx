@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Hero from './components/Hero'
 import Banner from './components/Banner'
 import Arrivals from './components/Arrivals'
+import Pay from './components/Pay'
 
 export default function Home() {
     return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Hero />
         <Banner />
         <Arrivals />
+        <Pay />
       </div>
     )
   }
