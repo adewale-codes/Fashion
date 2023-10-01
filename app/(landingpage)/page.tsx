@@ -3,6 +3,9 @@ import Hero from './components/Hero'
 import Banner from './components/Banner'
 import Arrivals from './components/Arrivals'
 import Pay from './components/Pay'
+import Favorite from './components/Favorite'
+import Voucher from './components/Voucher'
+import Newsletter from './components/Newsletter'
 
 export default function Home() {
     return (
@@ -15,6 +18,9 @@ export default function Home() {
         <Banner />
         <Arrivals />
         <Pay />
+        <Favorite />
+        <Voucher />
+        <Newsletter />
       </div>
     )
   }

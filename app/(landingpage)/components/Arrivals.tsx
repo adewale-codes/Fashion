@@ -8,7 +8,7 @@ import arrow from '../../assets/arrow.svg'
 const Arrivals = () => {
   return (
     <div className='bg-white h-1/2 w-full justify-center items-center p-10'>
-        <div>
+        <div className='pl-5'>
             <p className='text-5xl font-semibold'>NEW ARRIVALS</p>
         </div>
         <div className='flex md:flex-row flex-col justify-center items-center md:justify-around md:items-start p-2'>
@@ -18,14 +18,14 @@ const Arrivals = () => {
                         <Image src={first} alt='first' />
                     </li>
                     <li>
-                        <div className='flex flex-row'>
-                            <div className='p-5'>
+                        <div className='flex flex-row gap-14'>
+                            <div className=''>
                                 <ul>
-                                    <li className='text-3xl font-medium'>Hoodies & Sweetshirt</li>
+                                    <li className='text-2xl font-medium'>Hoodies & Sweetshirt</li>
                                     <li className='font-small'>Explore Now!</li>
                                 </ul>
                             </div>
-                            <div className='p-5'>
+                            <div className='pt-1'>
                                 <ul>
                                     <li>
                                         <Image src={arrow} alt='arrow' />
@@ -42,14 +42,14 @@ const Arrivals = () => {
                         <Image src={second} alt='second' />
                     </li>
                     <li>
-                        <div className='flex flex-row'>
-                            <div className='p-6'>
+                        <div className='flex flex-row gap-32'>
+                            <div className=''>
                                 <ul>
-                                    <li className='text-3xl font-medium'>Coats & Parkas</li>
+                                    <li className='text-2xl font-medium'>Coats & Parkas</li>
                                     <li className='font-small'>Explore Now!</li>
                                 </ul>
                             </div>
-                            <div className='p-6'>
+                            <div className='p-1'>
                                 <ul>
                                     <li>
                                         <Image src={arrow} alt='arrow' />
@@ -66,14 +66,14 @@ const Arrivals = () => {
                         <Image src={third} alt='third' />
                     </li>
                     <li>
-                        <div className='flex flex-row'>
-                            <div className='p-5'>
+                        <div className='flex flex-row gap-36'>
+                            <div className=''>
                                 <ul>
-                                    <li className='text-3xl font-medium'>Tees & T-Shirt</li>
+                                    <li className='text-2xl font-medium'>Tees & T-Shirt</li>
                                     <li className='font-small'>Explore Now!</li>
                                 </ul>
                             </div>
-                            <div className='p-6'>
+                            <div className='p-1'>
                                 <ul>
                                     <li>
                                         <Image src={arrow} alt='arrow' />
