@@ -6,6 +6,7 @@ import Pay from './components/Pay'
 import Favorite from './components/Favorite'
 import Voucher from './components/Voucher'
 import Newsletter from './components/Newsletter'
+import Footer from './components/Footer'
 
 export default function Home() {
     return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Favorite />
         <Voucher />
         <Newsletter />
+        <Footer />
       </div>
     )
   }
