@@ -6,14 +6,12 @@ import phone from '../../assets/phone.svg'
 
 const Voucher = () => {
   return (
-    <div className='bg-white h-1/2 w-full justify-center items-center p-10'>
+    <div className='bg-white h-1/2 w-full p-10'>
         <div className='flex md:flex-row flex-col justify-center items-center md:justify-around md:items-start p-2'>
             <div className='p-5'>
                 <ul className='pt-44'>
-                    <li className='text-4xl font-semibold'>DOWNLOAD THE APP &</li>
-                    <li className='text-4xl font-semibold'>GET THE VOUCHER!</li>
-                    <li className='font-small pt-5'>Get 30% off for first transaction using</li>
-                    <li className='font-small'>Fashion mobile app for now</li>
+                    <li className='text-4xl font-semibold'>DOWNLOAD THE APP & GET THE VOUCHER!</li>
+                    <li className='font-small pt-5'>Get 30% off for first transaction using Fashion mobile app for now</li>
                     <li className='pt-5'>
                         <div className='flex flex-row gap-5'>
                             <div className=''>
