@@ -11,7 +11,7 @@ const Hero = () => {
             <div className='p-2'>
                 <ul>
                     <li className='pt-5'>
-                        <button className='rotate-[355deg] bg-white py-2 pl-9 pr-44 text-black text-7xl md:text-8xl font-extrabold'>LET'S</button>
+                        <button className='rotate-[355deg] bg-white py-2 pl-9 pr-44 text-black text-7xl md:text-8xl font-extrabold'>LET&apos;S</button>
                     </li>
                     <li className='text-black md:text-8xl font-extrabold pt-5 pl-9 text-7xl'>EXPLORE</li>
                     <li className='text-black md:text-8xl font-extrabold pt-5 text-7xl'>
