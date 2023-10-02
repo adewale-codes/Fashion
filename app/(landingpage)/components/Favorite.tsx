@@ -12,7 +12,7 @@ const Favorite = () => {
             <div className='pl-28 md:pl-44'>
                 <Image src={icon} alt='icon'/>
             </div>
-            <p className='text-4xl -mt-12 md:-mt-14 md:text-5xl font-semibold'>Young's Favourite</p>
+            <p className='text-4xl -mt-12 md:-mt-14 md:text-5xl font-semibold'>Young&apos;s Favourite</p>
         </div>
         <div className='flex md:flex-row flex-col justify-center items-center md:justify-around md:items-start p-2'>
         <div className='p-5'>
