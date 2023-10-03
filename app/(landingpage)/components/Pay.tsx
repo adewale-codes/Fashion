@@ -5,7 +5,7 @@ import fine from '../../assets/fine.svg'
 const Pay = () => {
   return (
     <div className='flex flex-col justify-center items-center'>
-        <div className='h-3/4 bg-primary-200 w-full flex md:flex-row flex-col justify-center items-center md:justify-around md:items-start pl-5 pb-2 md:p-2'>
+        <div className='h-3/4 bg-primary-200 w-full flex md:flex-row flex-col justify-center items-center md:justify-around md:items-start p-5 md:p-2'>
             <div className='p-2'>
                 <ul>
                     <li>
