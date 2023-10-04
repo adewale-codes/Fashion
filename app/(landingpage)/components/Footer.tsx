@@ -7,8 +7,8 @@ import linkedin from '../../assets/linkedin.svg'
 
 const Footer = () => {
   return (
-    <div className='bg-black h-1/2 w-full p-10'>
-        <div className='flex md:flex-row flex-col justify-start items-start md:justify-around md:items-start p-2'>
+    <div className=''>
+        <div className='bg-black h-1/2 p-10 w-full flex md:flex-row flex-col justify-start items-start md:justify-around md:items-start p-2'>
             <div className='p-5'>
                 <ul>
                     <li className='text-white text-4xl font-semibold'>FASHION</li>
